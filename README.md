@@ -21,3 +21,22 @@ The best k value appears to be 4 so we would conclude on an output of 4 clusters
 ## Visualizing Cryptocurrencies Results
 
 <img src = "Resources/scatterPlot.png" width=80% height=80% ></img>
+
+This 3-D scatter plot was obtained using the PCA algorithm to reduce the crytocurrencies dimensions to three principal components.
+
+### Tradable Cryptocurrencies Table
+
+<img src = "Resources/table_1.png" width=80% height=80% ></img>
+
+Most of the cryptocurrencies are part of class #0 and #1.
+
+### 2D - Scatter plot with TotalCoinMined vs TotalCoinSupply
+
+<img src = "Resources/scatterPlot_2.png" width=80% height=80% ></img>
+
+Plotting the scatter plot from two cryptocurrency features directly does not efficiently segregate the different classes. Then using the PCA algorithm is the right method for better visualizations.
+
+## Summary 
+
+We have identified the classification of 532 cryptocurrencies based on similarities of their features.
+Particularities of each group need to be analyzed to determined their performance and potential interest for the investment bank's clients.
